@@ -14,9 +14,9 @@
 
 ## 📸 Screenshots
 
-| Welcome Screen | Admissions Query | Exam Schedule | Fallback Response |
-|:-:|:-:|:-:|:-:|
-| ![Welcome](screenshots/welcome.png) | ![Admissions](screenshots/admissions.png) | ![Exams](screenshots/exams.png) | ![Fallback](screenshots/fallback.png) |
+| Welcome Screen | Admissions Query | Exam Schedule | Fees Details | Fallback Response |
+Conversation | |:-:|:-:|:-:|:-:||:-:||:-:|
+| ![Welcome](welcome.png) | ![Admissions](admissions.png) | ![Exams](exams.png) | ![Fees](fees.png) | ![Fallback](fallback.png) |  ![Conversation](conversation.png) |
 
 ---
 
