@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Assistant Bot</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="bot-avatar">CA</div>
+        <div>
+          <h1>Campus Assistant Bot</h1>
+          <span class="tagline">Your 24/7 college helpdesk</span>
+        </div>
+      </div>
+      <div class="header-status">
+        <span class="status-dot"></span> Online
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <p class="sidebar-label">Quick Topics</p>
+      <button class="topic-btn" data-topic="hello"><i class="ti ti-home"></i> Home</button>
+      <button class="topic-btn" data-topic="admissions"><i class="ti ti-school"></i> Admissions</button>
+      <button class="topic-btn" data-topic="courses"><i class="ti ti-book"></i> Courses</button>
+      <button class="topic-btn" data-topic="exams"><i class="ti ti-calendar-event"></i> Exam Schedule</button>
+      <button class="topic-btn" data-topic="fees"><i class="ti ti-receipt"></i> Fee Details</button>
+      <button class="topic-btn" data-topic="contact"><i class="ti ti-phone"></i> Contact Us</button>
+      <button class="topic-btn reset-btn" data-topic="reset"><i class="ti ti-refresh"></i> Restart Chat</button>
+
+      <div class="sidebar-info">
+        <p><i class="ti ti-info-circle"></i> Assignment 1</p>
+        <p>Chatbot Development</p>
+        <p>Platform: Custom HTML/JS</p>
+      </div>
+    </aside>
+
+    <!-- Chat Window -->
+    <section class="chat-window">
+      <div id="messages" class="messages" aria-live="polite" aria-label="Chat messages"></div>
+      <div class="input-bar">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Ask me anything about the college..."
+          autocomplete="off"
+          aria-label="Type your message"
+        />
+        <button id="send-btn" aria-label="Send message">
+          <i class="ti ti-send"></i>
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Campus Assistant Bot &mdash; Assignment 1: Chatbot Development &mdash; Built with HTML, CSS &amp; JavaScript</p>
+  </footer>
+
+  <script src="bot.js"></script>
+</body>
+</html>
