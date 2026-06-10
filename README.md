@@ -1,6 +1,6 @@
 # 🎓 Campus Assistant Bot
-
-> **Assignment 1 — Chatbot Development**  
+ 
+Chatbot Development  
 > A fully functional AI-style chatbot for college students, built with pure HTML, CSS, and JavaScript. No frameworks, no backend required.
 
 ---
@@ -8,7 +8,6 @@
 ## 🔴 Live Demo
 
 👉 **[Open Campus Assistant Bot](https://deveshborse.github.io/-campus-assistant-bot/)**  
-*(Replace `YOUR-USERNAME` with your GitHub username after deploying)*
 
 ---
 
@@ -43,7 +42,6 @@ Conversation |
 - ✅ **Fallback/error handling** for unrecognized inputs
 - ✅ **Responsive design** — works on mobile & desktop
 - ✅ **No backend or API key required** — runs entirely in the browser
-- ✅ **Deployable on GitHub Pages** in 2 minutes
 
 ---
 
@@ -108,20 +106,6 @@ python -m http.server 8000
 # Then visit: http://localhost:8000
 ```
 
----
-
-## 🌐 Deploy on GitHub Pages (Get a Live Link)
-
-1. Push this project to a GitHub repository
-2. Go to your repo → **Settings** → **Pages**
-3. Under **Source**, select **main branch** → `/root` folder
-4. Click **Save**
-5. Your live URL will be: `https://YOUR-USERNAME.github.io/campus-assistant-bot/`
-
-> ⏱️ GitHub Pages takes ~1–2 minutes to go live after saving.
-
----
-
 ## 📖 Adding New Topics
 
 Edit `bot.js` — add a new entry to the `KB` object:
@@ -133,8 +117,6 @@ yourTopic: {
   quick: ['Follow-up 1', 'Follow-up 2']         // quick reply buttons
 }
 ```
-
----
 
 ## 🔮 Future Improvements
 
@@ -156,20 +138,6 @@ yourTopic: {
 | Vanilla JavaScript | Bot logic, DOM manipulation, intent matching |
 | Tabler Icons | UI icons (CDN) |
 | GitHub Pages | Free hosting & live link |
-
----
-
-## 📝 Assignment Info
-
-- **Assignment:** 1 — Chatbot Development
-- **Theme:** Campus Assistant Bot
-- **Platform:** Custom HTML/CSS/JS (no external platform required)
-- **Fulfills Requirements:**
-  - ✅ Clear objective and use case defined
-  - ✅ Welcome message, user prompts, logical responses
-  - ✅ 5+ meaningful interactions
-  - ✅ Fallback/error response
-  - ✅ Live working link via GitHub Pages
 
 ---
 
