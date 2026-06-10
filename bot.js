@@ -47,49 +47,49 @@ const KB = {
     quick: ['Exam schedule', 'Fee payment', 'Contact IT support']
   }
 };
- 
+
 const FALLBACK = [
   `I'm sorry, I didn't quite understand that! 🤔\n\nYou can try:\n• Typing 'menu' to see all topics\n• Clicking a topic in the sidebar\n• Rephrasing your question\n• Emailing us at help@college.edu`,
   `Hmm, I couldn't find info on that.\n\nTry asking about:\n📋 Admissions   📚 Courses\n📅 Exams         💰 Fees   📞 Contact\n\nOr type 'help' for the full menu.`,
   `I'm still learning! I didn't catch that one.\n\nFor complex queries, please contact:\n📧 help@college.edu\n📞 +91-22-1234-5678`
 ];
- 
+
 // ── State ──
 let fallbackIndex = 0;
- 
+
 // ── DOM refs ──
 const messagesEl = document.getElementById('messages');
 const inputEl    = document.getElementById('user-input');
 const sendBtn    = document.getElementById('send-btn');
 const topicBtns  = document.querySelectorAll('.topic-btn');
- 
+
 // ── Helpers ──
 function scrollToBottom() {
   messagesEl.scrollTop = messagesEl.scrollHeight;
 }
- 
+
 function createAvatar(type) {
   const av = document.createElement('div');
   av.className = `avatar ${type === 'bot' ? 'bot-msg-avatar' : 'user-msg-avatar'}`;
   av.textContent = type === 'bot' ? 'CA' : 'U';
   return av;
 }
- 
+
 function addMessage(text, type, quickReplies = []) {
   const wrap = document.createElement('div');
   wrap.className = `msg ${type}`;
- 
+
   const av  = createAvatar(type);
   const bub = document.createElement('div');
   bub.className = 'bubble';
   bub.textContent = text;
- 
+
   if (type === 'bot') { wrap.appendChild(av); }
   wrap.appendChild(bub);
   if (type === 'user') { wrap.appendChild(av); }
- 
+
   messagesEl.appendChild(wrap);
- 
+
   if (quickReplies.length && type === 'bot') {
     const qWrap = document.createElement('div');
     qWrap.className = 'quick-wrap';
@@ -105,10 +105,10 @@ function addMessage(text, type, quickReplies = []) {
     qWrap.appendChild(qRow);
     messagesEl.appendChild(qWrap);
   }
- 
+
   scrollToBottom();
 }
- 
+
 function showTyping() {
   const wrap = document.createElement('div');
   wrap.className = 'msg bot';
@@ -124,48 +124,48 @@ function showTyping() {
   messagesEl.appendChild(wrap);
   scrollToBottom();
 }
- 
+
 function hideTyping() {
   const t = document.getElementById('typing-indicator');
   if (t) t.remove();
 }
- 
+
 // ── Intent Matching ──
 function getResponse(input) {
   const t = input.toLowerCase().trim();
- 
+
   for (const [, data] of Object.entries(KB)) {
     if (data.keys.some(kw => t.includes(kw))) {
       return { text: data.response, quick: data.quick };
     }
   }
- 
+
   const fb = FALLBACK[fallbackIndex % FALLBACK.length];
   fallbackIndex++;
   return { text: fb, quick: ['Admissions', 'Courses', 'Exam schedule', 'Fees', 'Contact'] };
 }
- 
+
 // ── Handle Input ──
 function handleInput(text) {
   if (!text.trim()) return;
   addMessage(text, 'user');
   inputEl.value = '';
   topicBtns.forEach(b => b.classList.remove('active'));
- 
+
   showTyping();
   const delay = 600 + Math.random() * 500;
- 
+
   setTimeout(() => {
     hideTyping();
     const { text: resp, quick } = getResponse(text);
     addMessage(resp, 'bot', quick);
   }, delay);
 }
- 
+
 // ── Event Listeners ──
 sendBtn.addEventListener('click', () => handleInput(inputEl.value));
 inputEl.addEventListener('keydown', e => { if (e.key === 'Enter') handleInput(inputEl.value); });
- 
+
 topicBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     const topic = btn.dataset.topic;
@@ -193,7 +193,7 @@ topicBtns.forEach(btn => {
     if (map[topic]) handleInput(map[topic]);
   });
 });
- 
+
 // ── Boot Message ──
 setTimeout(() => {
   addMessage(
