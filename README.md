@@ -7,7 +7,7 @@
 
 ## 🔴 Live Demo
 
-👉 **[Open Campus Assistant Bot](https://YOUR-USERNAME.github.io/campus-assistant-bot/)**  
+👉 **[Open Campus Assistant Bot](https://deveshborse.github.io/-campus-assistant-bot/)**  
 *(Replace `YOUR-USERNAME` with your GitHub username after deploying)*
 
 ---
