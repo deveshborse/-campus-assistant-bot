@@ -124,5 +124,5 @@ python -m http.server 8000
 ## 📄 License
 
 This project is created for academic purposes.  
-Feel free to fork, modify, and use for your own assignments.
+
 
