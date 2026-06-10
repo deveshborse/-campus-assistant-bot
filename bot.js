@@ -8,7 +8,7 @@ const KB = {
   },
   admissions: {
     keys: ['admission','apply','eligib','enrol','join','register','document','requirement','last date','deadline','intake','how to get admitted','application'],
-    response: `📋 Admission Details — 2024-25\n\n✅ Eligibility\n   • 10+2 with min. 50% marks\n   • Science / Commerce / Arts accepted\n\n📅 Important Dates\n   • Application Opens: June 1, 2024\n   • Last Date to Apply: July 31, 2024\n   • Merit List: August 10, 2024\n   • Classes Begin: August 26, 2024\n\n🌐 Apply Online\n   admissions.college.edu\n\n📁 Documents Required\n   • 10th & 12th Mark Sheets\n   • Transfer Certificate\n   • Aadhar Card / Photo ID\n   • 4 Passport-size Photographs\n   • Domicile Certificate (if applicable)`,
+    response: `📋 Admission Details — 2025-26\n\n✅ Eligibility\n   • 10+2 with min. 50% marks\n   • Science / Commerce / Arts accepted\n\n📅 Important Dates\n   • Application Opens: June 1, 2026\n   • Last Date to Apply: July 31, 2026\n   • Merit List: August 10, 2026\n   • Classes Begin: August 26, 2026\n\n🌐 Apply Online\n   admissions.college.edu\n\n📁 Documents Required\n   • 10th & 12th Mark Sheets\n   • Transfer Certificate\n   • Aadhar Card / Photo ID\n   • 4 Passport-size Photographs\n   • Domicile Certificate (if applicable)`,
     quick: ['Scholarship details', 'Fee structure', 'Available courses', 'Contact admissions office']
   },
   courses: {
@@ -18,12 +18,12 @@ const KB = {
   },
   exams: {
     keys: ['exam','test','schedule','date','hall ticket','result','practical','internal','assessment','timetable','when is exam','semester exam','end sem'],
-    response: `📅 Exam Schedule — 2024-25\n\n── Mid-Semester Exams ──\n   September 15 – September 22, 2024\n\n── End-Semester Exams ──\n   November 10 – November 30, 2024\n\n── Practical Exams ──\n   December 2 – December 10, 2024\n\n🎫 Hall Tickets\n   Available on student portal 7 days before exam\n   portal.college.edu/hallticket\n\n✅ Results\n   Published within 30 days after last exam\n\n⚠️  Min. 75% attendance required to sit for exams`,
+    response: `📅 Exam Schedule — 2025-26\n\n── Mid-Semester Exams ──\n   September 15 – September 22, 2026\n\n── End-Semester Exams ──\n   November 10 – November 30, 2026\n\n── Practical Exams ──\n   December 2 – December 10, 2026\n\n🎫 Hall Tickets\n   Available on student portal 7 days before exam\n   portal.college.edu/hallticket\n\n✅ Results\n   Published within 30 days after last exam\n\n⚠️  Min. 75% attendance required to sit for exams`,
     quick: ['Internal assessments', 'Fee details', 'Contact exam cell', 'Student portal link']
   },
   fees: {
     keys: ['fee','cost','price','pay','tuition','hostel','scholarship','discount','amount','charges','instalment','how much','fee structure'],
-    response: `💰 Fee Structure — 2024-25 (Per Year)\n\n── Tuition Fees ──\n   • B.Tech      →  ₹85,000\n   • BCA / BBA   →  ₹45,000–₹50,000\n   • B.Sc / B.Com→  ₹35,000–₹40,000\n   • MBA         →  ₹95,000\n   • M.Tech      →  ₹90,000\n\n── Additional Charges ──\n   • Hostel (optional)  →  ₹60,000/year\n   • Mess               →  ₹30,000/year\n   • Library & Lab Fee  →  ₹5,000/year\n\n💳 Payment Options\n   Online portal, Demand Draft, or Accounts Office\n\n🎓 Scholarships Available\n   Merit-based (up to 25%) & Need-based (up to 50%)`,
+    response: `💰 Fee Structure — 2025-26 (Per Year)\n\n── Tuition Fees ──\n   • B.Tech      →  ₹85,000\n   • BCA / BBA   →  ₹45,000–₹50,000\n   • B.Sc / B.Com→  ₹35,000–₹40,000\n   • MBA         →  ₹95,000\n   • M.Tech      →  ₹90,000\n\n── Additional Charges ──\n   • Hostel (optional)  →  ₹60,000/year\n   • Mess               →  ₹30,000/year\n   • Library & Lab Fee  →  ₹5,000/year\n\n💳 Payment Options\n   Online portal, Demand Draft, or Accounts Office\n\n🎓 Scholarships Available\n   Merit-based (up to 25%) & Need-based (up to 50%)`,
     quick: ['Scholarship details', 'Admission process', 'Contact accounts office', 'Fee payment portal']
   },
   contact: {
@@ -33,7 +33,7 @@ const KB = {
   },
   scholarship: {
     keys: ['scholarship','merit','need','financial','aid','waiver','free seat','concession'],
-    response: `🏆 Scholarship Opportunities\n\n── Merit Scholarship ──\n   • Top 10% in entrance / 12th boards\n   • Benefit: 25% fee waiver\n\n── Need-Based Scholarship ──\n   • Family income < ₹3 Lakh/year\n   • Benefit: Up to 50% fee waiver\n\n── Sports Quota ──\n   • National / State level athletes\n   • Special fee concession + hostel priority\n\n── Government Schemes ──\n   • EBC, OBC, SC/ST scholarships via govt portal\n   • Apply: mahadbt.maharashtra.gov.in\n\n📋 Apply To: scholarships@college.edu\n📅 Deadline: August 15, 2024`,
+    response: `🏆 Scholarship Opportunities\n\n── Merit Scholarship ──\n   • Top 10% in entrance / 12th boards\n   • Benefit: 25% fee waiver\n\n── Need-Based Scholarship ──\n   • Family income < ₹3 Lakh/year\n   • Benefit: Up to 50% fee waiver\n\n── Sports Quota ──\n   • National / State level athletes\n   • Special fee concession + hostel priority\n\n── Government Schemes ──\n   • EBC, OBC, SC/ST scholarships via govt portal\n   • Apply: mahadbt.maharashtra.gov.in\n\n📋 Apply To: scholarships@college.edu\n📅 Deadline: August 15, 2026`,
     quick: ['Fee structure', 'Admission process', 'Contact office']
   },
   internals: {
@@ -47,49 +47,49 @@ const KB = {
     quick: ['Exam schedule', 'Fee payment', 'Contact IT support']
   }
 };
-
+ 
 const FALLBACK = [
   `I'm sorry, I didn't quite understand that! 🤔\n\nYou can try:\n• Typing 'menu' to see all topics\n• Clicking a topic in the sidebar\n• Rephrasing your question\n• Emailing us at help@college.edu`,
   `Hmm, I couldn't find info on that.\n\nTry asking about:\n📋 Admissions   📚 Courses\n📅 Exams         💰 Fees   📞 Contact\n\nOr type 'help' for the full menu.`,
   `I'm still learning! I didn't catch that one.\n\nFor complex queries, please contact:\n📧 help@college.edu\n📞 +91-22-1234-5678`
 ];
-
+ 
 // ── State ──
 let fallbackIndex = 0;
-
+ 
 // ── DOM refs ──
 const messagesEl = document.getElementById('messages');
 const inputEl    = document.getElementById('user-input');
 const sendBtn    = document.getElementById('send-btn');
 const topicBtns  = document.querySelectorAll('.topic-btn');
-
+ 
 // ── Helpers ──
 function scrollToBottom() {
   messagesEl.scrollTop = messagesEl.scrollHeight;
 }
-
+ 
 function createAvatar(type) {
   const av = document.createElement('div');
   av.className = `avatar ${type === 'bot' ? 'bot-msg-avatar' : 'user-msg-avatar'}`;
   av.textContent = type === 'bot' ? 'CA' : 'U';
   return av;
 }
-
+ 
 function addMessage(text, type, quickReplies = []) {
   const wrap = document.createElement('div');
   wrap.className = `msg ${type}`;
-
+ 
   const av  = createAvatar(type);
   const bub = document.createElement('div');
   bub.className = 'bubble';
   bub.textContent = text;
-
+ 
   if (type === 'bot') { wrap.appendChild(av); }
   wrap.appendChild(bub);
   if (type === 'user') { wrap.appendChild(av); }
-
+ 
   messagesEl.appendChild(wrap);
-
+ 
   if (quickReplies.length && type === 'bot') {
     const qWrap = document.createElement('div');
     qWrap.className = 'quick-wrap';
@@ -105,10 +105,10 @@ function addMessage(text, type, quickReplies = []) {
     qWrap.appendChild(qRow);
     messagesEl.appendChild(qWrap);
   }
-
+ 
   scrollToBottom();
 }
-
+ 
 function showTyping() {
   const wrap = document.createElement('div');
   wrap.className = 'msg bot';
@@ -124,48 +124,48 @@ function showTyping() {
   messagesEl.appendChild(wrap);
   scrollToBottom();
 }
-
+ 
 function hideTyping() {
   const t = document.getElementById('typing-indicator');
   if (t) t.remove();
 }
-
+ 
 // ── Intent Matching ──
 function getResponse(input) {
   const t = input.toLowerCase().trim();
-
+ 
   for (const [, data] of Object.entries(KB)) {
     if (data.keys.some(kw => t.includes(kw))) {
       return { text: data.response, quick: data.quick };
     }
   }
-
+ 
   const fb = FALLBACK[fallbackIndex % FALLBACK.length];
   fallbackIndex++;
   return { text: fb, quick: ['Admissions', 'Courses', 'Exam schedule', 'Fees', 'Contact'] };
 }
-
+ 
 // ── Handle Input ──
 function handleInput(text) {
   if (!text.trim()) return;
   addMessage(text, 'user');
   inputEl.value = '';
   topicBtns.forEach(b => b.classList.remove('active'));
-
+ 
   showTyping();
   const delay = 600 + Math.random() * 500;
-
+ 
   setTimeout(() => {
     hideTyping();
     const { text: resp, quick } = getResponse(text);
     addMessage(resp, 'bot', quick);
   }, delay);
 }
-
+ 
 // ── Event Listeners ──
 sendBtn.addEventListener('click', () => handleInput(inputEl.value));
 inputEl.addEventListener('keydown', e => { if (e.key === 'Enter') handleInput(inputEl.value); });
-
+ 
 topicBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     const topic = btn.dataset.topic;
@@ -193,7 +193,7 @@ topicBtns.forEach(btn => {
     if (map[topic]) handleInput(map[topic]);
   });
 });
-
+ 
 // ── Boot Message ──
 setTimeout(() => {
   addMessage(
