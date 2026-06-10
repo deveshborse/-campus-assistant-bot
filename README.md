@@ -7,7 +7,7 @@ Chatbot Development
 
 ## 🔴 Live Demo
 
-👉 **[Open Campus Assistant Bot](https://deveshborse.github.io/-campus-assistant-bot/)**  |
+👉 **[Open Campus Assistant Bot](https://deveshborse.github.io/-campus-assistant-bot/)**  
 
 ---
 
