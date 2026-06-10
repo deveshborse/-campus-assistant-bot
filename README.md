@@ -7,15 +7,7 @@ Chatbot Development
 
 ## 🔴 Live Demo
 
-👉 **[Open Campus Assistant Bot](https://deveshborse.github.io/-campus-assistant-bot/)**  
-
----
-
-## 📸 Screenshots
-
-| Welcome Screen | Admissions Query | Exam Schedule | Fees Details | Fallback Response |
-Conversation |
-| ![Welcome](welcome.png) | ![Admissions](admissions.png) | ![Exams](exams.png) | ![Fees](fees.png) | ![Fallback](fallback.png) |  ![Conversation](conversation.png) |
+👉 **[Open Campus Assistant Bot](https://deveshborse.github.io/-campus-assistant-bot/)**  |
 
 ---
 
@@ -106,18 +98,6 @@ python -m http.server 8000
 # Then visit: http://localhost:8000
 ```
 
-## 📖 Adding New Topics
-
-Edit `bot.js` — add a new entry to the `KB` object:
-
-```javascript
-yourTopic: {
-  keys: ['keyword1', 'keyword2', 'keyword3'],  // words that trigger this topic
-  response: `Your multi-line response here...`,
-  quick: ['Follow-up 1', 'Follow-up 2']         // quick reply buttons
-}
-```
-
 ## 🔮 Future Improvements
 
 - [ ] Connect to **OpenAI / Claude API** for truly intelligent responses
@@ -146,6 +126,3 @@ yourTopic: {
 This project is created for academic purposes.  
 Feel free to fork, modify, and use for your own assignments.
 
----
-
-*Made with ❤️ for Assignment 1 — Chatbot Development*
